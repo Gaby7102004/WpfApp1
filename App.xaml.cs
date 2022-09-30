@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfApp_TAKE_1
+namespace Car_Rental_System
 {
     /// <summary>
     /// Interaction logic for App.xaml

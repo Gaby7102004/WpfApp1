@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfApp_TAKE_1
+namespace WpfApp1
 {
-    public class CarMarket
+    public class CarsMarket
     {
         //class for the cars details
 

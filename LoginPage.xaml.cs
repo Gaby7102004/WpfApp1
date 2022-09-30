@@ -9,7 +9,7 @@ using System.Windows;
 using System.Runtime.Remoting.Messaging;
 using System.Configuration;
 
-namespace WpfApp_TAKE_1
+namespace WpfApp1
 {
     /// <summary>
     /// Interaction logic for MainPage.xaml
@@ -77,7 +77,7 @@ namespace WpfApp_TAKE_1
             if(conn.State == System.Data.ConnectionState.Open)
                 conn.Close();
 
-            if (VerifyUser(txtUsername.Text, txtPassword.Password))
+            if (VerifyUser(LoginUsername.Text, LoginPassword.Password))
                 MessageBox.Show("Login Succesfully", "Congrats", MessageBoxButton.OK, MessageBoxImage.Information);
             
             else
